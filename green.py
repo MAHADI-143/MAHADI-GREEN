@@ -1,7 +1,5 @@
-import os,sys
-
-os.system('termux-setup-storage -y')
-os.system('git pull')
-
-from green import main_apv
-main_apv()
+import os, sys
+try:
+    __import__("green").__niki__()
+except Exception as e:
+    exit(str(e))
