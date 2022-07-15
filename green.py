@@ -1,5 +1,5 @@
 import os, sys
 try:
-    __import__("green").__niki__()
+    __import__("mahadi").menu()
 except Exception as e:
     exit(str(e))
