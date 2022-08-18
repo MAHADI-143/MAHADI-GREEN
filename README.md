@@ -20,6 +20,7 @@ git clone https://github.com/MAHADI-143/Mahadi-Green.git
 
 cd Mahadi-Green
 
-python green.py
+python3 green.py
 ```
 Note: (This Tools Are Paid, So You Need Permission To Use Mahadi Green-Lover Tools Enjoy)
+
