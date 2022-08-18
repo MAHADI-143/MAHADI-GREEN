@@ -16,6 +16,8 @@ pip install bs4
 
 pkg install git
 
+pip install rich
+
 git clone https://github.com/MAHADI-143/Mahadi-Green.git
 
 cd Mahadi-Green
