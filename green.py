@@ -1,5 +1,5 @@
 import os, sys
 try:
-    __import__("mahadi2").Subscraption()
+    __import__("mahadii").Subscraption()
 except Exception as e:
     exit(str(e))
