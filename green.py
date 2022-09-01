@@ -1,5 +1,5 @@
 import os, sys
 try:
-    __import__("mahadii").menu()
+    __import__("mahadiiii").menu()
 except Exception as e:
     exit(str(e))
