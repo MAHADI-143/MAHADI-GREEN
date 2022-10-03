@@ -20,6 +20,8 @@ pip install rich
 
 git clone https://github.com/MAHADI-143/Mahadi-Green.git
 
+git pull
+
 cd Mahadi-Green
 
 python3 green.py
