@@ -16,16 +16,16 @@ bit = platform.architecture()[0]
  
 if bit == "64bit":
  
-        from mahadi import MahadiNX
+        from mahadi import mahadinx
  
-        MahadiNX()
+        mahadinx()
  
  
  
 elif bit == "32bit":
  
-        from mahadi32 import MahadiNX
+        from mahadi32 import mahadinx
  
  
-        MahadiNX()
+        mahadinx()
  
