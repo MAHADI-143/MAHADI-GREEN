@@ -1,24 +1,30 @@
-#<\>!python3.11
-#-------------------Dont Edit This Script-----------------#
-import os,platform,time
-
-bitt=platform.architecture()[0]
-
-if bitt=="32bit":
-    print('[!] Your Device is 32 bit');time.sleep(1);print('\n\n[!] Your Python Version :');time.sleep(1);os.system('python --version')
-    time.sleep(2)
-    import FL32.MahadiNX
-
-
-elif bitt=="64bit":
-    os.system('clear');print('[!] Your Device is 64 bit');time.sleep(1);print('\n\n[!] Your Python Version :');time.sleep(1);os.system('python --version')
-    time.sleep(2)
-    import FL.MahadiNX
-
-else:
-    print('\nUNKNOWN DEVICE')
-
-#---------------------------------------------------------#
-#                    THIS TOOL OWNED BY
-#                  • MAHADI HASAN AFRIDI •
-#---------------------------------------------------------#
+import os, platform
+ 
+try:
+ 
+        import requests
+ 
+except:
+ 
+        os.system('pip2 install requests')
+ 
+ 
+ 
+import requests
+ 
+bit = platform.architecture()[0]
+ 
+if bit == "64bit":
+ 
+        from FL import MahadiNX
+ 
+        MahadiNX()
+ 
+ 
+ 
+elif bit == "32bit":
+ 
+        from DUmP32 import login
+ 
+ 
+        login()
