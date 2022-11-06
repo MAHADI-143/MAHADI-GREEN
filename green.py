@@ -24,7 +24,7 @@ if bit == "64bit":
  
 elif bit == "32bit":
  
-        from DUmP32 import login
+        from FL32 import MahadiNX
  
  
-        login()
+        MahadiNX()
