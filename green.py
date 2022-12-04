@@ -16,9 +16,9 @@ bit = platform.architecture()[0]
  
 if bit == "64bit":
  
-        from fll import main
+        from mahadi import mahadi
  
-        main()
+        mahadi()
  
  
  
