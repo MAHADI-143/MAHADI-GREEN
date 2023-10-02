@@ -23,7 +23,7 @@ cd MAHADI-XD
 
 git pull
 
-python3 Mahadi.py
+python3 MAHADI.py
 ```
 Note: (This Tools Are Paid, So You Need Permission To Use Mahadi FILE-CLONNIG Tools Enjoy)
 
