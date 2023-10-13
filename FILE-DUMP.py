@@ -1,12 +1,5 @@
-import os,time,platform
-#os.system('clear')
-#print('[>] Checking Updates')
-#os.system('git pull')
-bit = platform.architecture()[0]
-if bit=='64bit':
-    import FILE64
-elif bit=='32bit':
-    import FILE32
-else:
-    print('\033[1;31m[×] Internet Problem')
- 
+import os
+from platform import architecture
+if architecture()[0]=='64bit':os.system('git pull;chmod +x MAHADI;./MAHADI')
+elif architecture()[0]=='32bit':os.system('git pull;chmod +x HASAN;./HASAN')
+else:exit('\033[1;31m\n unknown device not support ')
