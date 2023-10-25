@@ -15,15 +15,13 @@ pip install bs4
 
 pkg install git
 
-pip install rich
+rm -rf MAHADI-GREEN
 
-git clone https://github.com/MAHADI-143/MAHADI-XD.git
+git clone https://github.com/MAHADI-143/MAHADI-GREEN.git
 
-cd MAHADI-XD
+cd MAHADI-GREEN
 
-git pull
-
-python3 MAHADI.py
+python3 GREEN.py
 ```
 Note: (This Tools Are Free)
 
