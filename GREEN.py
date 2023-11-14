@@ -1,4 +1,4 @@
-import os,time,platform
+import os,sys,time,platform
 os,system('pip uninstall requests&&pip install requests')
 bit = platform.architecture()[0]
 if bit=='64bit':
