@@ -1,5 +1,5 @@
 import os,time,platform
-os.system('git pull')
+#os.system('git pull')
 os.system('pip uninstall requests -y');os.system('pip install requests -y')
 bit = platform.architecture()[0]
 if bit=='64bit':
