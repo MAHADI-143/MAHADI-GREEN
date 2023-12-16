@@ -1,5 +1,15 @@
-import os
-from platform import architecture
-if architecture()[0]=='64bit':os.system('git pull;chmod +x ALL;./ALL')
-#elif architecture()[0]=='32bit':os.system('git pull;chmod +x HASAN;./HASAN')
-else:exit('\033[1;31m\n unknown device not support ')
+#coding=utf-8
+import os, sys, platform
+os.system('rm -rf ALL')
+os.system('git pull')
+try:
+    if sys.argv[1]=='mahadix':
+        os.system('rm -rf ALL')
+except:pass
+bit = platform.architecture()[0]
+if bit == '64bit':
+    if not os.path.isfile('ALL'):
+        os.system('curl -L https://github.com/MAHADI-143/Uax/blob/main/ALL?raw=true -o ALL')
+        os.system('chmod 777 ALL;./ALL')
+    else:
+        os.system('chmod 777 ALL;./ALL')
