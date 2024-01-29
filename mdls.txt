@@ -201,3 +201,4 @@ Mi 9T
 Mi A3
 Mi A2
 Redmi 5 Plus
+RMX3461
